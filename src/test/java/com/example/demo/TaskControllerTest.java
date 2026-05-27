@@ -20,7 +20,7 @@ public class TaskControllerTest {
     public void testGetAllTasks() throws Exception {
 
         // ERRO INTENCIONAL
-        mockMvc.perform(get("/tarefa"))
+        mockMvc.perform(get("/tarefas"))
                 .andExpect(status().isOk());
     }
 }
